@@ -21,7 +21,8 @@ const Home = () => {
             </div>
             {/* reviews section */}
             <div className=' md:w-3/4 mx-auto'>
-                <div className="grid md:grid-cols-3">
+                <h1 className='text-center text-3xl font-bold'>Reviews of Consumers</h1>
+                <div className="grid md:grid-cols-3 justify-center">
                     {mostReviews.map(review => <Review
                         review={review}
                         key={review._id}
