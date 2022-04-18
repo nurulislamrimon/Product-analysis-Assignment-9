@@ -1,6 +1,8 @@
 import React from 'react';
+import useReviewsData from '../../CustomsHooks/ReviewsDataLoader';
 
 const Home = () => {
+    const [review, setReview] = useReviewsData([])
     return (
         <div>
             {/* top section */}
@@ -13,6 +15,9 @@ const Home = () => {
                     <p className='md:text-2xl mt-3'>▒ We are here to provide you your expected personal computer. Grab your favourite one and give us your feedback on that. <span className='text-indigo-800'>Don't be upsat!</span> Your satisfaction is our only priority.  <span className='text-red-800'>Stay Tuned! Stay Happy! ▒</span></p>
                 </article>
             </div>
+            {/* reviews section */}
+            {/* {console.log(review)} */}
+
 
 
 

@@ -1,9 +1,14 @@
 import React from 'react';
+import useReviewsData from '../../CustomsHooks/ReviewsDataLoader';
+import Review from './Review';
 
 const Reviews = () => {
+    const [reviews, setReviews] = useReviewsData([]);
     return (
-        <div>
-            hello
+        <div className=' grid md:grid-cols-3'>
+            {reviews.map(review => <Review
+                key={review._id}
+                review={review} ></Review>)}
         </div>
     );
 };
