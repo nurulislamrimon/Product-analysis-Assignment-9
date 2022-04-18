@@ -1,8 +1,12 @@
 import React from 'react';
 import useReviewsData from '../../CustomsHooks/ReviewsDataLoader';
+import Review from '../Reviews/Review'
+import { Link } from 'react-router-dom'
+import { ArrowRightIcon } from '@heroicons/react/solid'
 
 const Home = () => {
-    const [review, setReview] = useReviewsData([])
+    const [reviews, setReviews] = useReviewsData([]);
+    const mostReviews = reviews.slice(0, 3);
     return (
         <div>
             {/* top section */}
@@ -16,9 +20,17 @@ const Home = () => {
                 </article>
             </div>
             {/* reviews section */}
-            {/* {console.log(review)} */}
+            <div className=' md:w-3/4 mx-auto'>
+                <div className="grid md:grid-cols-3">
+                    {mostReviews.map(review => <Review
+                        review={review}
+                        key={review._id}
+                    ></Review>)}
+                </div>
+                <Link to='/reviews' className='mx-auto block w-[200px] p-2 text-xl rounded-lg text-center text-white bg-indigo-800 mb-10'>See all Reviews <ArrowRightIcon className='w-5 inline'></ArrowRightIcon></Link>
+            </div>
 
-
+            <footer className='text-center'>&copy; All right reserved</footer>
 
 
         </div>
