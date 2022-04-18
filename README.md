@@ -10,7 +10,8 @@ or, https://product-analysis-nirimon.netlify.app/ browse this link
 
 -  We are the best Computer supplier company
 -  We have home delivery/ easy shipping service all over the world
--  Thank you for being with Pc Mania!
+-  Browse the Pc Mania and get the best discounts on your favourite pc
+-  Thank you!
 
 ### `npm test`
 
