@@ -1,18 +1,16 @@
-# Getting Started with Create React App
+# Pc Mania
+World best Personal computer provider company
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Live site
 
-## Available Scripts
+Click here [https://product-analysis-nirimon.netlify.app/]
+or, https://product-analysis-nirimon.netlify.app/ browse this link
 
-In the project directory, you can run:
+### About Pc Mania
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+-We are the best Computer supplier company
+-We have home delivery/ easy shipping service all over the world
+-Thank you for being with Pc Mania!
 
 ### `npm test`
 
