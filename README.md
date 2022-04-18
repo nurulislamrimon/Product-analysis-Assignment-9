@@ -3,14 +3,14 @@ World best Personal computer provider company
 
 ## Live site
 
-Click here [https://product-analysis-nirimon.netlify.app/]
+Click [here](https://product-analysis-nirimon.netlify.app/)
 or, https://product-analysis-nirimon.netlify.app/ browse this link
 
 ### About Pc Mania
 
--We are the best Computer supplier company
--We have home delivery/ easy shipping service all over the world
--Thank you for being with Pc Mania!
+-  We are the best Computer supplier company
+-  We have home delivery/ easy shipping service all over the world
+-  Thank you for being with Pc Mania!
 
 ### `npm test`
 
